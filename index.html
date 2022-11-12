@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Anh Minh KeyCap</title>
+
+</head>
+<style>
+    .slick-prev:before {
+        content: '←';
+        color: black;
+
+    }
+
+    .slick-next:before {
+        content: '→';
+        color: black;
+    }
+
+    .slick-slide img {
+        display: inline-block;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="nav" id="nav">
+                <div class="hotline">
+                    <p>HOTLINE TƯ VẤN: 0338711***</p>
+                </div>
+                <div class="header-icon">
+                    <img src="./img/mainlogo.png">
+                </div>
+                <ul>
+                    <li>
+                        <p>TÀI KHOẢN</p>
+                    </li>
+                    <li>
+                        <p>GIỎ HÀNG <i class="fa-sharp fa-solid fa-bag-shopping"></p></i>
+                    </li>
+                    <li><i class="fa-sharp fa-solid fa-magnifying-glass"></i></li>
+
+                </ul>
+            </div>
+        </header>
+        <div class="sub-header">
+            <ul class="sub-nav">
+                <li><a href="">TRANG CHỦ</a></li>
+                <li style="position: relative; "><a href="">BÀN PHÍM
+                        <i class="fa-solid fa-caret-down"></i>
+
+                    </a>
+                    <ul class="subsubnav">
+                        <li><a href=""></a>Bàn phím bộ</li>
+                        <li><a href=""></a>Bàn phím custom</li>
+                        <li><a href=""></a>Bàn phím 2022</li>
+                    </ul>
+                </li>
+                <li><a href="">KEYCAP</a></li>
+                <li><a href="">SẢN PHẨM</a>
+                </li>
+                
+                <li><a href="">COMBO</a></li>
+                <li><a href="">ABOUT US</a></li>
+            </ul>
+        </div>
+        <div id="slider">
+            <a href="https://shopee.vn/" target="_blank"><img id="sliders"></a>
+            <div class="slider-content">
+                <h1>TẤT CẢ SẢN PHẨM</h1><br>
+                <p style="font-size:15px;">Thế giới bàn phím và phụ kiện đa dạng nhưng cũng đầy chất lượng!</p>
+            </div>
+        </div>
+        <div class="containers">
+            <div class="menu">
+                <div class="logo" style="padding-top:15px ;">
+                    <ul>
+                        <h2 style="font-size: 28px;">DANH MỤC</h2><br>
+                        <li>Trang chủ</li>
+                        <li>Bàn Phím bộ<i class="fa-solid fa-plus" style="text-align:end ;"></i></li>
+                        <li>Keycap bộ<i class="fa-solid fa-plus" style="text-align:end ;"></i></li>
+                        <li>Combo Vippro</li>
+                        <li>Sản phẩm<i class="fa-solid fa-plus" style="text-align:end ;"></i></li>
+                    </ul>
+                    <br>
+                    <ul>
+                        <h2 style="font-size: 28px;">TÌM THEO</h2><br>
+                        <li>Trạng thái <i class="fa-solid fa-plus" style="text-align:end ;"></i></li>
+                        <li>Thương hiệu<i class="fa-solid fa-plus" style="text-align:end ;"></i></li>
+                        <li>Giá sản phẩm<i class="fa-solid fa-plus" style="text-align:end ;"></i></li>
+                        <li>Loại<i class="fa-solid fa-plus" style="text-align:end ;"></i></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="center">
+                <div class="search" style="float:right">
+                    <div class="form">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Tìm kiếm ...">
+                        <button>Tìm kiếm</button>
+                    </div>
+                </div>
+                <h2 style="font-size: 28px;">TẤT CẢ SẢN PHẨM</h2>
+
+                <div class="list lists">
+                    <div class="item items" data-key="1">
+                        <div class="img">
+                            <img src="./img/sp1.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>KIT</h4>
+                            <h3>BỘ KIT TÙY CHỈNH</h3>
+                            <div class="price">2.199.000&#8363 <del>2.390.000&#8363</del></div>
+                            <input type="number" class="count" min="1" value="1">
+                            <button class="add">Thêm vào giỏ hàng</button>
+                            <button class="remove" onclick="Remove(1)"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="item items" data-key="2">
+                        <div class="img">
+                            <img src="./img/sp2.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>KIT</h4>
+                            <h3>BỘ KIT TÙY CHỈNH</h3>
+                            <div class="price">2.199.000&#8363 <del>2.390.000&#8363</del></div>
+                            <input type="number" class="count" min="1" value="1">
+                            <button class="add">Thêm vào giỏ hàng</button>
+                            <button class="remove" onclick="Remove(2)"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="item items" data-key="3">
+                        <div class="img">
+                            <img src="./img/sp3.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>KIT</h4>
+                            <h3>BỘ KIT TÙY CHỈNH</h3>
+
+                            <div class="price">2.199.000&#8363 <del>2.390.000&#8363</del></div>
+                            <input type="number" class="count" min="1" value="1">
+                            <button class="add">Thêm vào giỏ hàng</button>
+                            <button class="remove" onclick="Remove(3)"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="item items" data-key="4">
+                        <div class="img">
+                            <img src="./img/sp4.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>KIT</h4>
+                            <h3>BỘ KIT TÙY CHỈNH</h3>
+                            <div class="price">2.199.000&#8363 <del>2.390.000&#8363</del></div>
+                            <input type="number" class="count" min="1" value="1">
+                            <button class="add">Thêm vào giỏ hàng</button>
+                            <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                    <div class="item items" data-key="5">
+                        <div class="img">
+                            <img src="./img/sp4.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>KIT</h4>
+                            <h3>BỘ KIT TÙY CHỈNH</h3>
+                            <div class="price">2.199.000&#8363 <del>2.390.000&#8363</del></div>
+                            <input type="number" class="count" min="1" value="1">
+                            <button class="add">Thêm vào giỏ hàng</button>
+                            <button class="remove" onclick="Remove(5)"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                    <div class="item items" data-key="6">
+                        <div class="img">
+                            <img src="./img/sp4.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>KIT</h4>
+                            <h3>BỘ KIT TÙY CHỈNH</h3>
+                            <div class="price">2.199.000&#8363 <del>2.390.000&#8363</del></div>
+                            <input type="number" class="count" min="1" value="1">
+                            <button class="add">Thêm vào giỏ hàng</button>
+                            <button class="remove" onclick="Remove(6)"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                    <div class="item items" data-key="7">
+                        <div class="img">
+                            <img src="./img/sp4.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>KIT</h4>
+                            <h3>BỘ KIT TÙY CHỈNH</h3>
+                            <div class="price">2.199.000&#8363 <del>2.390.000&#8363</del></div>
+                            <input type="number" class="count" min="1" value="1">
+                            <button class="add">Thêm vào giỏ hàng</button>
+                            <button class="remove" onclick="Remove(7)"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                    <div class="item items" data-key="8">
+                        <div class="img">
+                            <img src="./img/sp4.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>KIT</h4>
+                            <h3>BỘ KIT TÙY CHỈNH</h3>
+                            <div class="price">2.199.000&#8363 <del>2.390.000&#8363</del></div>
+                            <input type="number" class="count" min="1" value="1">
+                            <button class="add">Thêm vào giỏ hàng</button>
+                            <button class="remove" onclick="Remove(8)"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                    <div class="item items" data-key="9">
+                        <div class="img">
+                            <img src="./img/sp4.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>KIT</h4>
+                            <h3>BỘ KIT TÙY CHỈNH</h3>
+                            <div class="price">2.199.000&#8363 <del>2.390.000&#8363</del></div>
+                            <input type="number" class="count" min="1" value="1">
+                            <button class="add">Thêm vào giỏ hàng</button>
+                            <button class="remove" onclick="Remove(9)"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                    <div class="item items" data-key="10">
+                        <div class="img">
+                            <img src="./img/sp4.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>KIT</h4>
+                            <h3>BỘ KIT TÙY CHỈNH</h3>
+                            <div class="price">2.199.000&#8363 <del>2.390.000&#8363</del></div>
+                            <input type="number" class="count" min="1" value="1">
+                            <button class="add">Thêm vào giỏ hàng</button>
+                            <button class="remove" onclick="Remove(10)"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="item items" data-key="11">
+                        <div class="img">
+                            <img src="./img/sp4.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>KIT</h4>
+                            <h3>BỘ KIT TÙY CHỈNH</h3>
+                            <div class="price">2.199.000&#8363 <del>2.390.000&#8363</del></div>
+                            <input type="number" class="count" min="1" value="1">
+                            <button class="add">Thêm vào giỏ hàng</button>
+                            <button class="remove" onclick="Remove(11)"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="item items" data-key="12">
+                        <div class="img">
+                            <img src="./img/sp4.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>KIT</h4>
+                            <h3>BỘ KIT TÙY CHỈNH</h3>
+                            <div class="price">2.199.000&#8363 <del>2.390.000&#8363</del></div>
+                            <input type="number" class="count" min="1" value="1">
+                            <button class="add">Thêm vào giỏ hàng</button>
+                            <button class="remove" onclick="Remove(12)"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+                <ul class="listPage">
+
+                </ul>
+            </div>
+
+            <div class="cart">
+                <div class="name">GIỎ HÀNG</div>
+                <div class="listCart">
+
+                </div>
+
+            </div>
+        </div>
+        <script src="NextPage.js"></script>
+        <script src="main.js"></script>
+    </div>
